@@ -16,7 +16,7 @@ public class Motorbike extends Vehicle
     {
         return cubicCentimer;
     }
-    public boolean getSideCar()
+    public boolean isSideCar()
     {
         return sideCar;
     }
