@@ -7,14 +7,9 @@ public class Identifier
     private LocalDate birthdate;
     private String address;
 
-    public Identifier(String fN, String lN, String birthdate, String address)
-    {
-        firstName = fN;
-        lastName = lN;
-        this.birthdate = LocalDate.parse(birthdate);
-        this.address = address;
-    }
+    public Identifier() {
 
+    }
     public void setFirstName(String firstName)
     {
         this.firstName = firstName;
@@ -36,15 +31,12 @@ public class Identifier
     public String getFirstName() {
         return firstName;
     }
-
     public String getLastName() {
         return lastName;
     }
-
     public LocalDate getBirthdate() {
         return birthdate;
     }
-
     public String getAddress() {
         return address;
     }
