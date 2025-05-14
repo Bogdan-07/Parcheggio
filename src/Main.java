@@ -87,7 +87,7 @@ public class Main {
                     if("".equals(carPark.toString()))
                         System.out.println("\nVehicle park is empty.");
                     else
-                        System.out.println(carPark.toString());
+                        System.out.println(carPark);
                     break;
                 case 5:
                     x = false;
